@@ -15,6 +15,7 @@
 		22B9AAB32C07FA5E001F366F /* cryptocoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9AAB22C07FA5E001F366F /* cryptocoinUITests.swift */; };
 		22B9AAB52C07FA5E001F366F /* cryptocoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9AAB42C07FA5E001F366F /* cryptocoinUITestsLaunchTests.swift */; };
 		22B9AAC82C07FEB4001F366F /* CoinsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9AAC72C07FEB4001F366F /* CoinsViewModel.swift */; };
+		22B9AACB2C0A854F001F366F /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9AACA2C0A854F001F366F /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		22B9AAB22C07FA5E001F366F /* cryptocoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cryptocoinUITests.swift; sourceTree = "<group>"; };
 		22B9AAB42C07FA5E001F366F /* cryptocoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cryptocoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		22B9AAC72C07FEB4001F366F /* CoinsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewModel.swift; sourceTree = "<group>"; };
+		22B9AACA2C0A854F001F366F /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		22B9AAC32C07FAC6001F366F /* AllCoins */ = {
 			isa = PBXGroup;
 			children = (
+				22B9AAC92C0A853E001F366F /* Service */,
 				22B9AAC62C07FAD5001F366F /* Model */,
 				22B9AAC52C07FAD3001F366F /* View */,
 				22B9AAC42C07FAD0001F366F /* ViewModel */,
@@ -176,6 +179,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		22B9AAC92C0A853E001F366F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				22B9AACA2C0A854F001F366F /* CoinDataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B9AACB2C0A854F001F366F /* CoinDataService.swift in Sources */,
 				22B9AA9A2C07FA59001F366F /* ContentView.swift in Sources */,
 				22B9AAC82C07FEB4001F366F /* CoinsViewModel.swift in Sources */,
 				22B9AA982C07FA59001F366F /* cryptocoinApp.swift in Sources */,
